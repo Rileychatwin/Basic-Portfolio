@@ -96,11 +96,7 @@ p:last-child {
     width: 960px;
     float: left;
     margin: 25px o 25px;
-    overflow: auto:
-}
-
-.portfolio-content:nth-child(even) {
-    margin-right: 50px;
+    overflow: auto;
 }
 
 .portfolio-content h3 {
@@ -119,3 +115,40 @@ p:last-child {
     width: 275px;
     border: 1px solid #dddddd;
 }
+
+
+#contact-form li {
+    margin-bottom: 10px;
+}#contact-form ul {
+    margin-bottom: 25px;
+}
+
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    width: 850px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    height: 50px;
+    font-size: 20px;
+    border: #dddddd 1px solid;
+    padding: 0px 10px;
+}
+
+input[type=submit] {
+    font-size: 20px;
+    color: #ffffff;
+    background: #4aaaa5;
+    border: 1px solid #dddddd;
+}
+
+textarea {
+    height: 200px;
+}
+
