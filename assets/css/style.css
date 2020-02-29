@@ -117,13 +117,21 @@ p:last-child {
   background: #4AAAA5;
   font-weight: lighter;
   width: 275px;
-  position: relative;
+  border-radius: 1px white;
 }
 
 .portfolio-content img {
     width: 275px;
     border: 1px solid #dddddd;
+    
 }
+
+ #port-image {
+    float: left;
+    border-radius: 1px white;
+    margin-right: 10px;
+}
+                                 
 
 
 #contact-form li {
