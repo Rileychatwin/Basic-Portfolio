@@ -59,3 +59,34 @@ nav a:first-child {
     margin-top: 10px;
     margin-right: 25px;
 }
+
+#main-container {
+    padding-top: 125px;
+}
+
+.main-section {
+    float: center;
+    width: auto;
+    max-width: 960px;
+    padding: 25px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+#about-me {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    padding-bottom: 25px;
+    font-size: 30px;
+    line-height: 50px;
+    border-bottom: 2px solid #dddddd;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+p:last-child {
+    margin-bottom: 0px;
+}
