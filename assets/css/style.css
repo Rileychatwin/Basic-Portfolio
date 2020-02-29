@@ -65,15 +65,15 @@ nav a:first-child {
 }
 
 .main-section {
-    float: center;
+    float: left;
     width: auto;
     max-width: 960px;
-    padding: 25px;
+    padding: 30px;
     background: #ffffff;
     border: 1px solid #dddddd;
 }
 
-#about-me {
+.page-name {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
     color: #4aaaa5;
@@ -89,4 +89,33 @@ p {
 
 p:last-child {
     margin-bottom: 0px;
+}
+
+.portfolio-content {
+    position: relative;
+    width: 960px;
+    float: left;
+    margin: 25px o 25px;
+    overflow: auto:
+}
+
+.portfolio-content:nth-child(even) {
+    margin-right: 50px;
+}
+
+.portfolio-content h3 {
+  bottom: 20px;
+  padding: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-align: center;
+  background: #4AAAA5;
+  font-weight: lighter;
+  width: 275px;
+  position: relative;
+}
+
+.portfolio-content img {
+    width: 275px;
+    border: 1px solid #dddddd;
 }
